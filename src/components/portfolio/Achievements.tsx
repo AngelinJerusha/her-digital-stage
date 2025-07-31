@@ -37,7 +37,7 @@ const Achievements = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/5 via-primary-glow/5 to-accent/10">
+    <section className="py-20 bg-gradient-to-br from-primary/10 via-dark/10 to-dark-secondary/20">
       <div className="container max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-sm font-medium px-4 py-2">

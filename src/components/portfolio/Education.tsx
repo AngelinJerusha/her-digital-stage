@@ -31,7 +31,7 @@ const Education = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-secondary/30 to-accent/20">
+    <section className="py-20 bg-gradient-to-br from-dark/50 via-dark-secondary/30 to-primary/10">
       <div className="container max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-sm font-medium px-4 py-2">
