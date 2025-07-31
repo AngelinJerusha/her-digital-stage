@@ -77,7 +77,7 @@ const Certifications = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-dark/30 to-primary/15">
+    <section className="py-20 bg-gradient-to-br from-background to-secondary/10 dark:from-dark/30 dark:to-primary/15 transition-colors duration-300">
       <div className="container max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-sm font-medium px-4 py-2">

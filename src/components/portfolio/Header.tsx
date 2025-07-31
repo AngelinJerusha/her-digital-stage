@@ -4,7 +4,7 @@ import { Mail, Phone, Linkedin, Download } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="relative overflow-hidden bg-gradient-to-br from-dark via-dark-secondary to-primary/20 py-20">
+    <header className="relative overflow-hidden bg-gradient-to-br from-background via-secondary/30 to-primary/20 dark:from-dark dark:via-dark-secondary dark:to-primary/20 py-20 transition-colors duration-300">
       <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent"></div>
       <div className="container relative max-w-6xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -30,7 +30,7 @@ const Header = () => {
               Angelin Jerusha A. S.
             </h1>
             
-            <p className="text-xl lg:text-2xl text-white/80 mb-6 leading-relaxed max-w-2xl">
+            <p className="text-xl lg:text-2xl text-muted-foreground dark:text-white/80 mb-6 leading-relaxed max-w-2xl">
               Final-year Computer Science student specializing in Artificial Intelligence, passionate about building efficient, intelligent, and reliable systems through clean code and continuous learning.
             </p>
 
@@ -38,25 +38,25 @@ const Header = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-8">
               <a 
                 href="mailto:jerushaangelin53@gmail.com" 
-                className="flex items-center gap-2 text-white/70 hover:text-primary transition-colors"
+                className="flex items-center gap-2 text-muted-foreground dark:text-white/70 hover:text-primary transition-colors"
               >
                 <Mail className="w-5 h-5" />
                 jerushaangelin53@gmail.com
               </a>
-              <span className="hidden sm:block text-white/50">•</span>
+              <span className="hidden sm:block text-muted-foreground dark:text-white/50">•</span>
               <a 
                 href="tel:+919342579442" 
-                className="flex items-center gap-2 text-white/70 hover:text-primary transition-colors"
+                className="flex items-center gap-2 text-muted-foreground dark:text-white/70 hover:text-primary transition-colors"
               >
                 <Phone className="w-5 h-5" />
                 +91 93425 79442
               </a>
-              <span className="hidden sm:block text-white/50">•</span>
+              <span className="hidden sm:block text-muted-foreground dark:text-white/50">•</span>
               <a 
                 href="https://linkedin.com/in/angelin-jerusha-0349b4249" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white/70 hover:text-primary transition-colors"
+                className="flex items-center gap-2 text-muted-foreground dark:text-white/70 hover:text-primary transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
                 LinkedIn

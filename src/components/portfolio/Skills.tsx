@@ -31,7 +31,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/5 to-dark/20">
+    <section className="py-20 bg-gradient-to-br from-background to-secondary/20 dark:from-primary/5 dark:to-dark/20 transition-colors duration-300">
       <div className="container max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-sm font-medium px-4 py-2">

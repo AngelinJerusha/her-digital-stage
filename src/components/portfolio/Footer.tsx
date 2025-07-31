@@ -4,7 +4,7 @@ import { Mail, Phone, Linkedin, Heart } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-dark via-dark-secondary to-primary/20 py-16">
+    <footer className="bg-gradient-to-br from-primary/5 via-accent/5 to-secondary/10 dark:from-dark dark:via-dark-secondary dark:to-primary/20 py-16 transition-colors duration-300">
       <div className="container max-w-6xl mx-auto px-6">
         <div className="text-center">
           <Badge variant="outline" className="mb-6 text-sm font-medium px-4 py-2">
@@ -15,7 +15,7 @@ const Footer = () => {
             Get In Touch
           </h2>
           
-          <p className="text-lg text-white/70 mb-12 max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground dark:text-white/70 mb-12 max-w-2xl mx-auto">
             Always open to discussing new opportunities, collaborative projects, or just connecting with fellow tech enthusiasts.
           </p>
 
@@ -48,12 +48,12 @@ const Footer = () => {
             </Button>
           </div>
 
-          <div className="border-t border-white/20 pt-8">
+          <div className="border-t border-border dark:border-white/20 pt-8">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-              <p className="text-white/60">
+              <p className="text-muted-foreground dark:text-white/60">
                 © 2024 Angelin Jerusha A. S. All rights reserved.
               </p>
-              <p className="flex items-center gap-2 text-white/60">
+              <p className="flex items-center gap-2 text-muted-foreground dark:text-white/60">
                 Built with <Heart className="w-4 h-4 text-primary" /> using React & TypeScript
               </p>
             </div>
